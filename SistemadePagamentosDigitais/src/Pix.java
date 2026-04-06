@@ -5,7 +5,7 @@ import AtvdSistemaPagamentosDigitais.SistemadePagamentosDigitais.src.Pagamento;
 import java.time.LocalDateTime;
 
 public class Pix extends Pagamento {
-    public Pix(double valor, String status, LocalDateTime dataHoraPagamento, String identificadorTransacao, String moeda) {
-        super(valor, status, dataHoraPagamento, identificadorTransacao, moeda);
+    public Pix(double valor, String status, LocalDateTime dataHoraPagamento) {
+        super(valor, status, dataHoraPagamento);
     }
 }
